@@ -11,21 +11,39 @@
     <h1>Notes</h1>
     <p id="msg">General things to remember:</p>
     <ul>
-        <li class="list">html file (HyperText Markup Language) is the content displayed in the actual webpage</li>
-        <li>css file (CSS = Cascading Style Sheets) contains general information about the page styling</li>
-        <li>js file contains how interactions with your page will work</li>
+        <li class="list"><b>html</b> file (HyperText Markup Language) is the <b>content</b> displayed in the actual webpage</li>
+        <li><b>css</b> file (Cascading Style Sheets) contains general information about the <b>page styling</b></li>
+        <li><b>js</b> file contains how <b>interactions</b> contained in your page will work</li>
     </ul>
     <p>CSS things to remember:</p>
-    <ol>
-        <li>"RULES": are the ones that styles the html markup (head, body, h1, p, ul, ol, li, etc.)</li>
-        <li>"CLASS SELECTOR": '.list' is e of them.
-            Each HTML element that contains a class attribute set to list will get the styles that are defined within this selector.
-        </li>
-        <li>"ID SELECTOR: '#msg' is one of them.
-            The HTML element that has its id attribute set to msg will get the styles that are defined within this selector.
-        </li>
-        <li>It uses inheritance mechanism from parent elements to their descendants (key aspects of CSS).</li>
-        <li>To define a set of global CSS variables use a CSS rule with the ':root' selector.</li>
+    <ol type="1">
+        <li><b>"RULES"</b>: are the ones that styles the html markup (head, body, h1, p, ul, ol, li, etc.)</li>
+        <li><b>"CLASS SELECTOR"</b>: '.list' is e of them.
+            Each HTML element that contains a class attribute set to list will get the styles that are defined within this selector.</li>        
+        <li><b>"ID SELECTOR"</b>: '#msg' is one of them.
+            The HTML element that has its id attribute set to msg will get the styles that are defined within this selector.</li>        
+        <li>It <u>uses inheritance mechanism</u> from parent elements to their descendants (key aspects of CSS).</li>
+        <li>To define a set of <u>global CSS variables</u> use a CSS rule with the ':root' selector.</li>
     </ol>
+    <p>JS thisngs to remember:</p>
+    <ol type="I">
+        <li><b>"script"</b> can be placed in <i>head</i> or right before the closing <i>body</i>.
+            If the latter is choosed, then it gives the possibility to all the pages content to be displayed on the screen first,
+            and then to load the script.</li>
+        <li><b>"noscript"</b> is a <u>message</u> that appears if JavaScript is deactivated,
+            thus the code can detect and plan for when a feature isn't supported or available.</li>
+        <li>Enabling 'strict mode' (in js) will let you know when you made mistakes,
+            otherwise JavaScript will let you make mistakes handling them by itself, but it will be harder to find them in the future.</li>
+        <li><b>Event Handler</b> is a way to run a JavaScript function when the specified event occurs on the page.
+            With 'document.querySelector' you can link the reference to the involved element.
+            Before this command you find the variable with the reference stored.</li>
+        <li><b>Console Message</b> are hidden messages that won't appear on the webpage but that are displayed in the Developer Tools.
+            These are extremely helpful to check your code.</li>
+    </ol>
+<div>
+    <button class="btn">Light Theme</button>
+</div>
+<script src="app.js"></script>
+<noscript>Please, enable JavaScript in order to view the full site!</noscript>
 </body>
 </html>
