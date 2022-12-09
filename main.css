@@ -13,6 +13,14 @@ li {
     list-style: circle;
 }
 
+table {
+    border: 1px solid blanchedalmond;
+}
+
+th {
+    border: 1px solid blanchedalmond;
+}
+
 #msg {
     font-size: small;
 }
@@ -20,7 +28,7 @@ li {
 .btn {
     position: absolute;
     top: 10px;
-    left: 550px;
+    left: 90%;
     height: 50px;
     width: 50px;
     border-radius: 20%;
