@@ -1,12 +1,13 @@
 :root {
-    --white: #FFFFFF;
-    --black: #000000;
+    --white: #e6e6e6;
+    --black: #3b3b3b;
 }
 
 body {
-    background: var(--bg);
-    color: var(--white);
+    background: #3b3b3b;
+    color: #cccccc;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0.5%;
 }
 
 li {
@@ -19,6 +20,7 @@ table {
 
 th {
     border: 1px solid blanchedalmond;
+    padding: 10px;
 }
 
 #msg {
@@ -27,7 +29,7 @@ th {
 
 .btn {
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 90%;
     height: 50px;
     width: 50px;
@@ -38,17 +40,13 @@ th {
 }
 
 .dark-theme {
-    color: #bbbbbb;
-    background: #000000;
-    --btnBG: var(--black)
-    --btnFontColor: var(--white)
+    color: #cccccc;
+    background: #3b3b3b;
 }
 
 .light-theme {
     color: #000000;
     background: #bbbbbb;
-    --btnBG: var(--white)
-    --btnFontColor: var(--black)
 }
 
 .list {
